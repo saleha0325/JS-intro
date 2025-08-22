@@ -63,6 +63,12 @@ document.writeln(`value at index-0 = ${odd_numbers[0]} <br>`);
 for (let index = 0; index < odd_numbers.length; index++) {
     document.writeln(`value at index-${index} = ${odd_numbers[index]} <br>`);
 }
+//---------------------------
+// for-of loop
+for(const odd_number of odd_numbers)
+    document.writeln(`${odd_number} <br>`);
+
+
 // document.writeln(odd_numbers);
 document.writeln(`${odd_numbers} <br> <hr>`);
 
@@ -85,3 +91,15 @@ document.writeln(`Number-2: ${num2} <br>`);
 document.writeln(`the sum: ${ addNumbers(num1, num2)} <br>`)
 // let sum=addNumbers(num1,num2);
 // document.writeln(`the sum:${sum} <br>`);
+
+let heading=document.getElementById("heading");
+// console.log(heading);
+// heading.innerHTML("DOM heading changed");
+// document.writeln(heading.innerHTML("DOM heading changed"));
+// heading.innerHTML="DOM heading changed";
+
+
+// function btnClicked(){
+//     let heading = document.getElementById("heading");
+//     heading.innerHTML="DOM heading changed";
+// }
